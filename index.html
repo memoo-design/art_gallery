@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="sidebar">
+            <section class="hero">
+                <h1>SIMPLE ART. SIMPLY BEAUTIFUL.</h1>
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Enter Keywords">
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+            <h2>Categories</h2>
+            <ul id="categoryList">
+                <li><a href="https://unsplash.com/s/photos/painting" target="_blank">Paintings & Prints</a></li>
+                <li><a href="https://www.pexels.com/search/photography/" target="_blank">Photography</a></li>
+                <li><a href="https://www.freepik.com/free-photos-vectors/glass" target="_blank">Drawings & Illustration</a></li>
+                <li><a href="https://pixabay.com/images/search/digital%20art/" target="_blank">Digital Art</a></li>
+                <li><a href="https://unsplash.com/s/photos/sculpture" target="_blank">Sculptures & Gravings</a></li>
+                <li><a href="https://unsplash.com/s/photos/sculpture" target="_blank">Ceramics & Pottery</a></li>
+                <li><a href="#" target="_blank">Glass</a></li>
+                <li><a href="https://unsplash.com/s/photos/jewellery" target="_blank">Jewelry</a></li>
+                <li><a href="https://www.freepik.com/free-photos-vectors/textile" target="_blank">Textile & Apparel</a></li>
+                <li><a href="https://www.pexels.com/search/antique/" target="_blank">Antiques & Collectibles</a></li>
+            </ul>
+        </div>
+        <div class="categories" id="filteredCategories">
+            <div id="paintings-prints" class="category">
+                <a href="https://unsplash.com/s/photos/painting" target="_blank"><img src="./images/painting_prints.jpg" alt="Paintings & Prints"></a>
+                <p>Paintings & Prints</p>
+            </div>
+            <div id="photography" class="category">
+                <a href="https://www.pexels.com/search/photography/" target="_blank"><img src="./images/photography.jpeg" alt="Photography"></a>
+                <p>Photography</p>
+            </div>
+            <div id="jewellery" class="category">
+                <a href="https://unsplash.com/s/photos/jewellery" target="_blank"><img src="./images/jewellery.jpg" alt="jewellery"></a>
+                <p>Jewellery</p>
+            </div>
+            <div id="digital-art" class="category">
+                <a href="https://pixabay.com/images/search/digital%20art/" target="_blank"><img src="./images/digital_art.jpg" alt="Digital Art"></a>
+                <p>Digital Art</p>
+            </div>
+            <div id="sculptures" class="category">
+                <a href="https://unsplash.com/s/photos/sculpture" target="_blank"><img src="./images/sculpture.jpg" alt="Sculptures"></a>
+                <p>Sculptures & Gravings</p>
+            </div>
+            <div id="ceramics-pottery" class="category">
+                <a href="https://unsplash.com/s/photos/sculpture" target="_blank"><img src="./images/ceramic_pottery.jpg" alt="Ceramics & Pottery"></a>
+                <p>Ceramics & Pottery</p>
+            </div>
+            <div id="glass" class="category">
+                <a href="#" target="_blank"><img src="./images/glass.jpeg" alt="Glass"></a>
+                <p>Glass</p>
+            </div>
+            <div id="drawings-illustration" class="category">
+                <a href="https://www.freepik.com/free-photos-vectors/glass" target="_blank"><img src="./images/drawing_illustrations.jpg" alt="Drawing Illustrations"></a>
+                <p>Drawing Illustrations</p>
+            </div>
+            <div id="textile" class="category">
+                <a href="https://www.freepik.com/free-photos-vectors/textile" target="_blank"><img src="./images/textile.jpg" alt="Textile & Apparel"></a> 
+                <p>Textile & Apparel</p>
+            </div>
+            <div id="antiques-collectibles" class="category">
+                <a href="https://www.pexels.com/search/antique/" target="_blank"><img src="./images/antique.jpg" alt="Antiques & Collectibles"></a> 
+                <p>Antiques & Collectibles</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

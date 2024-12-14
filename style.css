@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #330c0c;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    color: #fff; 
+}
+
+.hero {
+    background-image: url('art_gallery.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 15px;
+}
+
+.hero form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero input {
+    padding: 12px;
+    margin-right: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1900px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.sidebar {
+    flex: 2;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+    height: auto;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(82, 24, 24);
+    padding: 30px;
+    border-radius: 5px; 
+}
+
+.sidebar ul li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    text-align: center; 
+}
+
+.sidebar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.sidebar ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.categories {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    color: black; 
+}
+
+.category {
+    flex: 1;
+    min-width: calc(33% - 20px);
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.category:hover {
+    transform: scale(1.1);
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.category p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
